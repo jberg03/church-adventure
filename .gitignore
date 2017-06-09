@@ -31,5 +31,15 @@
 *.out
 *.app
 
+# ignore files without extensions
+# Ignore all
+*
+
+# Unignore all with extensions
+!*.*
+
+# Unignore all dirs
+!*/
+
 # VS Code generated Directories
 .vscode/
